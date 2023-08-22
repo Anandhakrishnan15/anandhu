@@ -1,0 +1,157 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+
+}
+@media only screen and (max-width: 775px) {
+
+   
+
+
+    .page2holder .workshop_box-holder {
+      
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offer_box_holder .offer-box {
+       
+        width: 92.33%;
+    }
+
+    .workshop_box-holder .workshop-box{
+        width: 100%;
+    }
+
+    .introcontainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .page1intro {  
+       width: 100%; 
+    }
+    .offers-container .offer_box_holder {
+        flex-direction: column;
+        align-items: center;
+    }
+    #mentor_page-co .mentor-page-holder {
+        display: flex;
+        flex-direction: column;
+    }
+    .wtf-list .list_itm {
+        display: flex;
+        flex-direction: column;
+    }
+    .wtf-holder .button-holder {
+        width: 98%;
+        margin: auto;
+    }
+    #mentor_page-co .mentoer-holder-contanier .button_container {
+        width: 86%;
+    }
+    #certof .button_container {
+        width: 88%;
+    }
+    .regholder {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .regform {
+        width: 91%;
+        margin: 5px;
+    }
+    .regabout {
+        width: 85%;
+        margin: 5px;
+    }
+    #fnamebox{
+        width: 50%
+    }
+    #lnamebox{
+        width: 50%
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+
+
+   
+    .introcontainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wtf-list .list_itm {
+        display: flex;
+        flex-direction: column;
+    }
+    .regholder {
+        flex-direction: column;
+ 
+    }
+    .regform {
+        width: 91%;
+        margin: 5px;
+    }
+    .regabout {
+        width: 85%;
+        margin: 5px;
+    }
+    #fnamebox{
+        width: 50%
+    }
+    #lnamebox{
+        width: 50%
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    
+
+    /* ------------------apply pahe mq--------------------- */
+
+    .page2holder .workshop_box-holder {
+        margin-top: 20px;
+        display: flex;
+        margin: auto;
+        width: 85%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .introcontainer {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .wtf-list .list_itm {
+        display: flex;
+        flex-direction: row;
+    }
+    .regholder {
+        flex-direction: row;
+  
+    }
+    
+
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+     /* ------------------apply pahe mq--------------------- */
+  
+}
+
+
+
+
+
+

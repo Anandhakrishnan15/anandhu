@@ -1,0 +1,311 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* {
+        background-color: aqua;
+    }*/
+    .vido {
+        margin: auto;
+        width: 100%;
+        height: fit-content;
+        padding: 20px 0px;
+    }
+    .list .list_itm {
+        display: flex;
+        flex-direction: column;
+    }
+    .chekbox-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .chek{
+        width: 90%;
+    }
+
+    .section3container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutbox {
+        width: 85%;}
+
+    .rivew {
+    flex-direction: column;
+    align-items: center;
+    }
+    .start .heading {
+        color: white;
+        margin: auto;
+        width: 90%;}
+
+    .rivew img {
+        width: 77%;
+        margin: 10px;
+    }
+    .raiting {
+        margin: auto;
+        width: 30%;
+        text-align: center;
+    }
+    .details {
+       
+        width: 100%;
+        
+    }
+    .bonesbox {
+        width: 100%;
+    }
+    .buttoncontainer {
+        width: 100%;
+    }
+    .certof .hhhh h2 {
+        text-align: center;
+    }
+    .certof .hhhh p {
+        font-size: 30px;
+        text-align: center;
+    }
+    .part2container {
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .mentordivder {
+        flex-direction: column;
+        align-items: center;
+    }
+    .metntoeimg {
+        width: 100%;
+    }
+    .mentordetails {
+        width: 100%;
+    }
+    .mentordetails .detilboxcontainer .dbox {
+        width: 85%;
+    }
+    .hedbanner {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }.certof .hhhh h2 {
+        font-size: 44px;
+    }
+    .regholder {
+       
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .regform {
+        width: 100%;
+    }
+    .regabout {      
+        width: 100%;
+    }
+    .registerpage .reghheading {
+        width: 99%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    /* {
+        background-color: rgb(164, 218, 18);
+    }
+
+    /* ------------------apply pahe mq--------------------- */
+    .vido {
+        margin: auto;
+        width: 90%;
+        padding: 20px 0px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+/* {
+        background-color: rgb(12, 214, 103);
+    }
+
+    /* ---------------------------------- */
+    .vido {
+        margin: auto;
+        width: 100%;
+        padding: 20px 3px;
+    }
+
+    .list .list_itm {
+        display: flex;
+        flex-direction: column;
+    }
+    .chekbox-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .chek{
+        width: 70%;
+    }
+
+    .section3container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutbox {
+        width: 85%;}
+
+    .rivew {
+    flex-direction: column;
+    align-items: center;
+    }
+    .rivew img {
+        width: 77%;
+        margin: 10px;
+    }
+    .raiting {
+        margin: auto;
+        width: 30%;
+        text-align: center;
+    }
+    .details {
+       
+        width: 100%;
+        
+    }
+    .bonesbox {
+        width: 100%;
+    }
+    .buttoncontainer {
+        width: 100%;
+    }
+    .certof .hhhh h2 {
+        text-align: center;
+    }
+    .certof .hhhh p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .mentordivder {
+        flex-direction: column;
+        align-items: center;
+    }
+    .metntoeimg {
+        width: 90%;
+    }
+    .mentordetails {
+        width: 100%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    /* {
+        background-color: rgb(164, 218, 18);
+    }
+
+    /* ------------------apply pahe mq--------------------- */
+    .vido {
+        margin: auto;
+        width: 100%;
+        padding: 20px 3px;
+    }
+
+    .list .list_itm {
+        display: flex;
+        flex-direction: column;
+    }
+    .chekbox-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .chek{
+        width: 70%;
+    }
+
+    .section3container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutbox {
+        width: 85%;}
+
+    .rivew {
+    flex-direction: column;
+    align-items: center;
+    }
+    .rivew img {
+        width: 77%;
+        margin: 10px;
+    }
+    .raiting {
+        margin: auto;
+        width: 30%;
+        text-align: center;
+    }
+    .details {
+       
+        width: 100%;
+        
+    }
+    .bonesbox {
+        width: 100%;
+    }
+    .buttoncontainer {
+        width: 100%;
+    }
+    .certof .hhhh h2 {
+        text-align: center;
+    }
+    .certof .hhhh p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .mentordivder {
+        flex-direction: column;
+        align-items: center;
+    }
+    .metntoeimg {
+        width: 90%;
+    }
+    .mentordetails {
+        width: 100%;
+    }
+    .regholder {
+        width: 98%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /*{
+        background-color: rgb(228, 96, 8);
+    }
+
+    /* ------------------apply pahe mq--------------------- */
+   
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (-width: 1200px) {
+
+    /* {
+        background-color: rgb(93, 6, 231);
+    }
+
+    /* ------------------apply pahe mq--------------------- */
+
+
+
+}

@@ -1,0 +1,603 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* {
+        background-color: aqua;
+    }
+
+    /*--------------apply for mq--------------*/
+    .choose {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .choose button {
+        margin-left: -15px;
+    }
+
+    .card {
+        height: 90px;
+        width: 80%;
+        margin: 50px;
+        padding: 20px;
+        float: none;
+    }
+
+    .card2 {
+        height: 90px;
+        width: 80%;
+        padding: 20px;
+        margin: 50px;
+        float: none;
+
+    }
+
+    .choose input[type='radio'] {
+        position: absolute;
+        margin-top: -20px;
+        margin-left: -30px;
+    }
+
+    .forclient-h h4 {
+        width: 100%;
+    }
+
+    label h2 {
+
+        position: relative;
+        margin: auto;
+        margin-right: 20PX;
+    }
+
+    /* -------------------sigin in page mq--------------------- */
+
+    .signform {
+        width: 70%;
+    }
+
+
+    .addinfo {
+        width: 90%;
+    }
+
+    #h-w-h {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .hwh-gif {
+        width: 100%;
+    }
+
+    .hwh-delaits {
+        width: 100%;
+    }
+
+    .profil {
+        flex-direction: column;
+    }
+
+    .profilimg {
+        display: flex;
+
+    }
+
+    .profildes h1 {
+        display: none;
+    }
+
+    .profildes h2 {
+        display: none;
+    }
+
+    .container {
+        font-size: 16px;
+    }
+
+    #workpost {
+        width: 90%;
+    }
+
+    .w-card {
+        width: 75%;
+    }
+
+    .cardcontainer {
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .top .boxarea {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-list ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .similerwork .swcontainer {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .similerwork .w-card {
+        width: 80%;
+
+    }
+
+    .abtj .flex-container {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .abtj .flex-container .TDEP_h6 h4 {
+        float: right;
+
+    }
+
+    .abtj .flex-container .TDEP_h6 p {
+        float: left;
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    /* {
+        background-color: rgb(12, 214, 103);
+    }
+
+    /* -----------------apply fo mq------------------- */
+    .choose {
+
+        width: 80%;
+    }
+
+    /* ---------------------sigin in page mq-------------------- */
+
+    .signform {
+        width: 60%;
+    }
+
+
+
+    .addinfo {
+        width: 70%;
+    }
+
+    #h-w-h {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .hwh-gif {
+        width: 80%;
+    }
+
+    .hwh-delaits {
+        width: 100%;
+    }
+
+    .profilname {
+        display: none;
+    }
+
+    #workpost {
+        width: 97%;
+    }
+
+    .w-card {
+        width: 40%;
+    }
+
+    .top .boxarea {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-list ul {
+        padding: 10px;
+        margin: 5px;
+    }
+
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    /* {
+        background-color: rgb(164, 218, 18);
+    }
+
+    /* ------------------apply pahe mq--------------------- */
+    .choose {
+
+        width: 65%;
+
+    }
+
+    /* ------------------sigin in page mq---------------------- */
+
+    .signform {
+        width: 50%;
+    }
+
+
+
+    .addinfo {
+        width: 60%;
+    }
+
+    #h-w-h {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .hwh-gif {
+        width: 70%;
+    }
+
+    .hwh-delaits {
+        width: 100%;
+    }
+
+    #workpost {
+        width: 97%;
+    }
+
+    .w-card {
+        width: 25%;
+    }
+
+    .top .boxarea {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-list {
+        margin: 0px;
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* {
+        background-color: rgb(228, 96, 8);
+    }
+
+    /* ------------------apply pahe mq--------------------- */
+    .choose {
+
+        width: 50%;
+
+
+    }
+
+    .addinfo {
+        width: 50%;
+    }
+
+    /* ------------------sigin in page mq---------------------- */
+
+    .signform {
+        width: 40%;
+    }
+
+    #h-w-h {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hwh-gif {
+        width: 80%;
+    }
+
+    .hwh-delaits {
+        width: 100%;
+    }
+
+    #workpost {
+        width: 90%;
+    }
+
+    .w-card {
+        width: 22%;
+    }
+
+    .top .boxarea {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .footer-list ul {
+        padding: 20px;
+        margin: 20px;
+    }
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    /* {
+        background-color: rgb(93, 6, 231);
+    }
+
+    /* ------------------apply pahe mq--------------------- */
+    .choose {
+
+        width: 40%;
+    }
+
+    /* ------------------sigin in page mq---------------------- */
+
+    .signform {
+        width: 30%;
+    }
+
+
+
+    .addinfo {
+        width: 40%;
+    }
+
+    #h-w-h {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .hwh-gif {
+        width: 80%;
+    }
+
+    .hwh-delaits {
+        width: 100%;
+    }
+
+    #workpost {
+        width: 95%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 970px) {
+
+    .lsit a,
+    .dropdown .dropbtn {
+        display: none;
+    }
+
+    .lsit a.icon {
+        float: right;
+        display: block;
+    }
+
+    #nav-searchbar {
+        display: none;
+    }
+
+
+
+    #home-page .div-img {
+        display: none;
+    }
+
+
+    #forclient .boxarea .box {
+        width: 90%;
+    }
+
+    #imgdiv1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #imgdiv1 .imgdiv-img {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    #imgdiv1 .imgdiv-img img {
+        width: 100%;
+    }
+
+    #imgdiv1 .imgdiv-details {
+        width: 95%;
+    }
+
+    #imgdiv1 .imgdiv-details h1 {
+        width: 100%;
+        font-size: 60px;
+
+    }
+
+    #imgdiv1 .imgdiv-details h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+
+    #forclient .boxarea {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    #indexlist .indexlist-1 {
+        display: none;
+    }
+
+    .profil-tab {
+        flex-direction: column;
+
+    }
+
+    .container .nav {
+        flex-wrap: nowrap;
+        margin: 0px;
+        padding: 0px;
+
+
+    }
+
+    .w-25 {
+        width: 100% !important;
+    }
+
+    .col-md-3 {
+
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+
+    .mb-5 {
+        margin-bottom: 1px !important;
+    }
+
+    .mt-5 {
+        margin-top: 1px !important;
+    }
+
+    .tab-content {
+        padding: 10px;
+    }
+
+    .profil-container {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .project-D {
+        flex-direction: column;
+        width: 99%;
+
+    }
+
+    .project-form {
+        margin: auto;
+        width: 90%;
+
+    }
+
+    .project-info {
+        width: 100%;
+    }
+
+    .logo {
+        max-width: 10%;
+    }
+
+    .FBJ_div1 {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .FBJ_div1 .hom-div {
+        width: 90%;
+    }
+
+    #FBJ {
+        padding: 0px;
+    }
+
+    .FBJ_div1 .fbj_div2 {
+        width: 90%;
+    }
+    
+    .f_C-cardholder {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #FBJ_2 .f_C .w-card {
+        width: 100%;
+    }
+
+    #FBJ_2 .f_C .w-card button {
+        width: 100%;
+    }
+
+    #FBJ_3 .FBJ_div1 .hom-div,
+    .fbj_div2 {
+        width: fit-content
+    }
+
+    #trustedbrands .brands div{
+        width: 10%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 970px) {
+    .topnav.responsive {
+        position: relative;
+        position: sticky;
+        top: 0;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive .lsit a {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-left: 70px;
+
+    }
+
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+
+    .topnav.responsive .dropdown-content {
+        position: sticky;
+        top: 0;
+
+    }
+
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+    }
+}

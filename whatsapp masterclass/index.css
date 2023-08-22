@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#box1 .box1_container{
+    margin: auto;
+    width: 80%;
+}
+#box1 .box1-holder {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#box1 .box1_heading{
+    width: 50%;
+    margin:10px;
+    text-align: center;
+}
+
+#box1 .box1_img{
+    padding: 30px;
+    width: 50%;
+
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: -30px;
+    right: 45px;
+    font-size: 60px;
+  }
+  .button-container{
+    margin: auto;
+    width:50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .button-container .button_holder{
+    margin: auto;
+    width: 100%;
+  }
+  .button_holder button{
+    width: 100%;
+    background-color: rgb(11, 83, 148);
+    border: none;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .heading2_box{
+
+    margin: auto;
+    width: 80%;
+
+  }
+  .heading2_box .box-text{
+    text-align: center;
+    background-color: rgb(11, 83, 148);
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .box-text2{
+    text-align: center;
+  }
+  .mentor-partcontainer{
+   
+    margin: auto;
+    width: 80%;
+  }
+
+
+.mentr_box_hoolder .mentor-img{
+  margin: auto;
+  width: 40%;
+}
+.mentor-partcontainer .mentor_details{
+  text-align: center;
+}
+
+.banner_box-container .banner_holder{
+  background-color:  rgb(7, 55, 99);
+  text-align: center;
+  margin: 20px 0px ;
+
+}
+.banner_box-container{
+  margin: auto;
+  width: 80%;
+}
+
+.workshopday_box_conatiner{
+
+  width: 80%;
+  margin: auto;
+}
+.workshopday_box-holder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.workshopday_box-holder .ws-box{
+  border: 3px solid blue;
+  width: 45%;
+  margin: 20px;
+  padding: 30px;
+ 
+}
+
+.ws-box .ws-box_h1{
+  margin-top: -40px;
+  background-color: blue;
+  color: white;
+  width: 30%;
+  margin-left: 60%;
+  text-align: center;
+ 
+}
+.ws-box_h1 p{
+  font-size: 30px;
+}
+.ws-box-p p{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.dicontpart_box_container{
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.dicpart_holder{
+  text-align: center;
+}
+.dicontpart_box_container .box-text{
+  text-align: center;
+}
+
+.lastbox{
+  text-align:center;
+  margin: 20px;
+}
+
+#forn_c{
+  width: 50%;
+}
+
+
+
+/*------------------------------------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+ 
+  }
+@media only screen and (max-width: 775px) {
+
+  *
+   #box1 .box1-holder {
+    flex-direction: column;
+    align-items: center;
+}
+#box1 .box1_heading { 
+  width: 99%;  
+}
+#box1 .box1_img {
+  width: 80%;
+}
+
+.button-container {
+  width: 100%;
+}
+.workshopday_box-holder .ws-box {
+  width: 90%;
+}
+#forn_c {
+  width: 90%;
+}
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+  
+
+   #box1 .box1-holder {
+    flex-direction: column;
+    align-items: center;
+}
+#box1 .box1_heading { 
+  width: 99%;  
+}
+#box1 .box1_img {
+  width: 80%;
+}
+
+.button-container {
+  width: 100%;
+}
+.workshopday_box-holder .ws-box {
+  width: 90%;
+
+}
+#forn_c {
+  width: 70%;
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+ 
+   #box1 .box1-holder {
+    flex-direction: row;
+    align-items: center;
+}
+.button-container {
+  width: 50%;
+}
+.workshopday_box-holder .ws-box {
+  width: 45%;
+}
+
+#forn_c {
+  width: 60%;
+}
+    /* ------------------apply pahe mq--------------------- */
+
+    
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+   #forn_c {
+    width: 50%;
+  }
+
+     /* ------------------apply pahe mq--------------------- */
+  
+}
+
+
+
+
+
+

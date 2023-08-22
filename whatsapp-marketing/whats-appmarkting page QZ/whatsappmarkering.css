@@ -1,0 +1,668 @@
+body{
+    background-image: radial-gradient(at top center, #000000 23%, #000000 100%);
+    font-family: "Poppons", sans-serif;
+
+}
+*{
+    margin: 0%;
+    padding: 0;
+}
+.start{
+    background-color: #000000;
+}
+.start .heading {
+    color: white;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    background-color: black;
+    padding: 5PX;
+    font-family: "Poppons", Sans-serif;
+}
+
+span.h2color {
+    color: greenyellow;
+    text-decoration: underline;
+
+}
+
+.videos {
+    width: 100%;
+    padding: 0;
+
+}
+
+.vido {
+   
+    margin: auto;
+    width: 70%;
+    padding: 20px 40px;
+}
+
+.vido iframe {
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.videos .button1 {
+    margin: auto;
+  
+    width: 70%;
+}
+#mySidenav a {
+    position: absolute;
+    left: -170px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 190px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555
+  }
+
+.button1 button {
+    width: 100%;
+    border-radius: 10px;
+    background-color: red;
+    padding: 20px;
+    color: white;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property:transform;
+    transition-property:transform;
+}
+
+.button1 button:hover,
+.button1 button:focus,
+.button1 button:active {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.button1 button a{
+    text-decoration:none;
+    color: white;
+}
+.button1 button h4 {
+    margin: 10px;
+    font-size: x-large;
+}
+
+.button1 button p {
+    font-weight: 20px;
+    margin: 0px;
+}
+
+.button1 button span {
+    text-decoration: line-through;
+}
+
+.list {
+    color: aliceblue;
+    margin: auto;
+    width: 85%;
+}
+
+.list .list_itm {
+    display: flex;
+}
+
+.list .list_itm ul {
+    width: 100%;
+}
+
+.list .list_itm li {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.list .list_itm li i {
+    font-size: 30px;
+    margin: 5px;
+    color: greenyellow;
+}
+
+.list .list_itm li h3 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.list .list_itm li span.h2color {
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    height: max-content;
+    padding: 12px;
+    background-color: transparent;
+    background-image: radial-gradient(at top center, #03300F 23%, #000000 100%);
+}
+
+#yelocolor {
+    color: yellow;
+}
+
+.section2 {
+   margin: 0px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.heading2 h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.chekbox-container {
+   
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chek {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.chek input[type='checkbox'] {
+    width: 10%;
+    height: 40px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.chek h3 {
+    width: 90%;
+}
+
+.pline {
+    text-align: center;
+    margin: 10px;
+}
+.videos .buttoncontainer{
+    width: 100%;
+}
+.buttoncontainer {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+}
+.buttoncontainer p{
+    margin: 20px;
+}
+
+.hed {
+  
+    width: 100%;
+    background-color: lightgray;
+   
+}
+
+.hedbanner{
+    text-align:center;
+    margin:auto;
+    width: 80%;
+}
+
+.hedbanner h1 {
+    font-size:70px;
+     margin-bottom: 20px;
+}
+
+.hedbanner h2 {
+    font-size: 31px;
+    font-weight: 400;
+    padding: 20px;
+    margin: 0px;
+}
+.hedbanner h3{
+    font-size: 31px;
+    margin: 20px;
+}
+
+
+.section3{
+    background-color: white;
+}
+
+.section3container{
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutbox{
+
+width: 40%;
+display: flex;
+background-color: whitesmoke;
+border-radius: 20px;
+padding: 20px;
+margin: 10px;
+align-items: baseline
+}
+.aboutbox i{
+    width: 10%;
+}
+.aboutbox div{
+    width: 90%;
+}
+.s5container{
+ 
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.section5 .banner h1{
+    font-size: 50px;
+}
+.section5{
+    background-color: white;
+
+}
+.section5 .list {
+    text-align: justify;
+    width: 100%;
+    color: #000000;
+}
+
+.hed2 {
+  
+    width: 100%;
+    background-color: #000000;
+   
+}
+.hed2 .hedbanner{
+    color: white;
+}
+.hed2 .hedbanner h1{
+    color: #B9FD27;
+    font-family: "Poppins", Sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+.hed2 .hedbanner h2{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+.reviu{
+
+    padding: 30px;
+    background-color: white;
+}
+
+.rivew{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.rivew img{
+    width: 50%;
+}
+.raiting{
+  margin: auto;
+  width: 15%; 
+  text-align: center;
+
+}
+.stars{
+    display: flex;
+    margin: 20px;
+    font-size:30px;
+    color: gold;
+}
+
+.details{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+.details h2{
+    text-align: center;
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.part2container{
+margin: auto;
+width: 85%;
+padding: 30px;
+
+}
+.part2 .banner h1{
+font-size: 50px;
+}
+
+.bonseoxcontainer{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.bonesbox{
+ 
+    width: 45%;
+    margin: 20px;
+    height: max-content;
+    background-color: whitesmoke;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.bones-hed{
+
+    width: 40%;
+    color: yellow;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: -13px;
+
+}
+.ratebox{
+  
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+   margin-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+.content{
+    margin: 20px;
+    text-align: center;
+}
+.content h2{
+    margin: 20px 5px;
+    font-size: 25px;
+}
+
+.certof{
+    background-color: black;
+}
+.certof .videos img{
+    margin: auto;
+    width: 100%;
+}
+.certof .videos .imgp p{
+    margin: auto;
+    width:100%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.certof .hhhh h2 {
+    font-size: 50px;
+    margin: auto;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+.certof .hhhh p{
+    font-size: 30px;
+    margin: auto;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+.mentorcontainer{
+    margin: 0;
+    background-color: white;
+ 
+}
+.mentorholder{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.mentordivder{
+    display: flex;
+}
+
+.metntoeimg{
+ 
+    width: 50%;
+    margin: 10px;
+
+}
+
+.metntoeimg img{
+    width: 100%;
+    height: fit-content;
+}
+.mentordetails{
+    width: 50%;
+    margin: 10px;
+
+}
+.mentordetails .parahraph{
+    text-align: left;
+    color: #1C1330;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.mentordetails .detilboxcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.mentordetails .detilboxcontainer .dbox{
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    background-color: #1C1330;
+}
+.mentordetails .detilboxcontainer .dbox h4{
+    font-size: 15px;
+}
+.faqcontainer{
+padding: 20px;
+}
+
+.faqh{
+margin: auto;
+width: 80% ;
+text-align: center;
+}
+.faqcontainer{
+    width: 100%;
+    background-color: white;
+}
+.faqbuttcontainer{
+    margin: auto;
+    width: 60%;
+}
+.faqbuttcontainer button{
+    width: 100%;
+    text-align: left;
+    background-color: black;
+    border: none;
+    border-radius:0px;
+    margin: 10px;
+}
+.faqbuttcontainer button:hover{
+    background-color: #000000;
+}
+.faqbuttcontainer div{
+    margin-left: 30px;
+}
+
+.registerpage{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #141414;
+   
+}
+.registerpage .reghheading{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+.registerpage .reghheading h2{
+    color: #2ACC75;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+
+.regholder{
+  
+    display:flex;
+    margin: auto;
+    width: 80%;
+    padding-top: 40px;
+}
+
+.regabout{
+  
+    width: 50%;
+    margin: 5px;
+    
+}
+
+.regul li{
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 20px 20px;
+    list-style: none;
+    color:white;
+}
+
+.regheading p{
+    font-size: 30px;
+}
+.regform{
+    width: 50%;
+    margin: 5px;
+}
+.form{
+    background-color: aliceblue;
+}
+.form .container{
+    position: relative;
+    width: 100%;
+}
+.form .container ul li{
+    width: 50%;
+}
+.form .container ul li a{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.form .container ul li a h1{
+    margin: 10px;
+}
+.form .container ul li a div p{
+    font-size: 15px;
+    margin: 0px;
+
+}
+.form .container #home form{
+    margin: 30px 0px;
+  
+
+}
+.form .container #home form .form-control{
+    height: 55px;
+}
+.form .container #home form button{
+    width: 90%;
+    margin: 30px;
+    height: 80px;
+    background-color: green;
+}
+.form .container #home form button h1{
+    margin: auto;
+    width: 70%;
+}
+.form .container #home form button a{
+    color: white;
+    text-decoration: none;
+}
+.regform .formprize h1{
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+    font-weight: bold;
+}
+.regform .formprize p{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}

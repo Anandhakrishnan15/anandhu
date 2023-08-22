@@ -1,0 +1,1741 @@
+body {
+    background-color: azure;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*------sticky nav bar--------*/
+.topnav {
+    overflow: hidden;
+    background-color:
+        #ffffff;
+    display: flex;
+    z-index: 999;
+    padding: 0;
+    top: 0;
+    position: sticky;
+    border-bottom: 1px groove rgba(183, 183, 183, 0.678);
+
+}
+
+.lsit a {
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 20px 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.lsit {
+    width: 100%;
+
+}
+
+.logo img {
+    position: relative;
+    margin: 10px;
+    width: 110px;
+    height: 50px;
+
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#nav-searchbar input[type=text] {
+
+    padding: 1px 5px 2px 34px;
+    border: none;
+    position: relative;
+    border-radius: 10px;
+    height: 37px;
+    font-size: 17px;
+    outline: none;
+    margin: 13px;
+}
+
+#nav-searchbar i {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 25px;
+    padding: 0;
+    z-index: 999;
+}
+
+
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+    color: green;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: rgb(136, 100, 100);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*------nav bar of the launching page--------*/
+
+
+
+
+#nav-searchbar {
+    display: flex;
+    position: relative;
+    margin: 0px;
+    padding: 0;
+    margin-right: 10px;
+    float: right;
+    z-index: 999;
+}
+
+.icon {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.icon i {
+    font-size: 25px;
+    margin: 0px;
+}
+
+#nav-searchbar input[type=text] {
+    vertical-align: middle;
+   
+    background-color: #ccc;
+}
+
+.navbutton {
+    width: 100px;
+    background-color: green;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    color: aliceblue;
+
+}
+
+#nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+#nav a:hover {
+    color: rgb(10, 163, 10);
+    transition: 3ms;
+}
+
+#nav a:active {
+    color: rgb(10, 163, 10);
+}
+
+
+/*------sign up form--------*/
+.signform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    border: 0.1em groove rgba(128, 128, 128, 0.583);
+    height: cover;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.sigupbutton1{
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+    color: aliceblue;
+    margin-left: 50px;
+
+}
+.addinfo .col-md-8 {
+    width: 100%;
+}
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.signform h2 {
+    text-align: center;
+    margin: 10px 10px;
+}
+.signform h6 a{
+    margin-left: 30px;
+}
+
+.signform form {
+    position: relative;
+}
+
+.signform form i {
+    position: absolute;
+    left: 56px;
+    padding: 0;
+    font-size: 20px;
+    margin-top: -9px;
+    z-index: 1;
+
+
+}
+
+.signform form input {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px groove gray;
+    width: 80%;
+    height: 40px;
+    padding: 2px 15px 0px 48px;
+    border-radius: 5px;
+    outline-color: green;
+}
+
+
+.sigupbutton {
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+    color: aliceblue;
+}
+
+.signform button:hover {
+    background-color: rgb(8, 159, 8);
+}
+
+.signform p {
+    text-align: center;
+    color: gray;
+    font-size: smaller;
+    position: relative;
+    padding: 10px;
+
+}
+
+.signform a {
+    border: none;
+    margin-left: 50px;
+    border-radius: 20px;
+
+}
+
+.choose {
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'popooins', sans-serif;
+    border: 1px groove gray;
+    padding: 30px 20px;
+    border-radius: 20px;
+    width: 30%;
+    height: max-content;
+    align-items: center;
+}
+
+.choose h1 {
+    color: black;
+    padding: 10px;
+    font-size: 35px;
+    position: relative;
+    text-align: center;
+    top: 0px;
+
+}
+
+.card {
+    height: 130px;
+    width: 200px;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    border: none;
+    top: 30px;
+    background-color: transparent;
+    outline-color: green;
+
+}
+
+.card2 {
+    height: 130px;
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+    outline: green;
+    position: relative;
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.choose button {
+    position: relative;
+    margin-top: 50px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: green;
+}
+
+.choose a {
+    border: none;
+    margin-left: 100px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.choose input[type='radio']:hover {
+    border-color: green;
+}
+
+.choose input[type='radio'] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 7px 7px 15px rgba(128, 128, 128, 0.583);
+    cursor: pointer;
+    outline: green;
+}
+
+.choose input[type='radio']:before {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background-color: rgb(241, 237, 237);
+    border: 1.5px solid green;
+    border-radius: 50%;
+    top: 20px;
+    outline: none;
+    right: 20px;
+
+}
+
+.choose input[type='radio']:after {
+    content: "";
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 50%;
+    top: 20px;
+    outline-color: green;
+    right: 20px;
+}
+
+label h2 {
+    position: absolute;
+    bottom: 5px;
+    padding: 10px 10px;
+    font-weight: 1px;
+    font-size: 20px;
+}
+
+input[type='radio']:checked {
+    border: 1px solid green;
+    outline-color: green;
+}
+
+input[type='radio']:checked:after {
+    background-color: green;
+    outline-color: green;
+}
+
+.addinfo #infoinput input {
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 1px groove rgba(144, 143, 143, 0.678);
+    background: transparent;
+    outline: green;
+}
+
+input::placeholder {
+    text-align: left;
+    padding-left: 5px;
+
+}
+
+.addinfo button {
+    padding: 10px;
+    top: 30px;
+    width: 60%;
+    display: relative;
+    align-content: center;
+    color: rgb(253, 248, 248);
+}
+
+.addinfo button {
+    position: relative;
+    margin-top: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+    color: aliceblue;
+}
+
+.addinfo {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    border: 0.1em groove rgba(128, 128, 128, 0.583);
+    height: inherit;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.addinfo h2 {
+    padding: 30px 30px;
+    text-align: center;
+
+}
+
+.checkbox-container {
+    display: block;
+}
+
+.checkbox-container label {
+    width: 100%;
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+
+}
+
+.checkboxes label {
+    display: inline-block;
+    padding-right: 10px;
+    white-space: nowrap;
+    width: 100;
+}
+
+.checkboxes input {
+    vertical-align: middle;
+}
+
+.checkboxes label span {
+    vertical-align: middle;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+/*---------video marketing page---------------*/
+
+.top {
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    font-family: 'Noto';
+
+}
+
+.top h1 {
+    font-weight: 20px;
+}
+
+.top h2 {
+    font-size: 20px;
+    color: gray;
+}
+
+.boxarea {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    background-color: rgba(211, 204, 204, 0.205);
+    width: 250px;
+    height: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 5px;
+    justify-content: space-between;
+    border-radius: 20px;
+    color: black;
+}
+
+.box:hover {
+    background-color: rgba(175, 175, 175, 0.338);
+}
+
+.box h2 {
+    min-height: 30px;
+    font-size: 15px;
+    margin: 0px 0px 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.box h4 {
+    margin-top: 20px;
+    font-size: medium;
+    text-align: left;
+    color: green;
+}
+
+/*--------work detils and posts------------*/
+#workpost {
+    margin: auto;
+    width: 80%;
+    font-family: 'Noto';
+    border: 1px solid rgba(107, 104, 104, 0.271);
+
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: auto;
+}
+
+.w-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: inline-block;
+    font-family: arial;
+    border-radius: 20px;
+    width: 20%;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 0;
+}
+
+.w-card a {
+    color: black;
+    text-decoration: none;
+}
+
+.w-card .cardimg {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cardimg img {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: inherit;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.w-card h1 {
+    font-size: 18px;
+    justify-self: center;
+    padding: 5px 5px;
+    margin: 5px 3px;
+    font-weight: 20px;
+}
+
+.w-card .prize {
+    float: left;
+    padding-left: 10px;
+}
+
+.time {
+    color: grey;
+    font-size: 13px;
+    float: right;
+    margin-right: 5px;
+}
+
+.w-card:hover {
+    opacity: 0.9;
+}
+
+.avatar {
+    vertical-align: middle;
+    position: relative;
+    width: 50px;
+    height: cover;
+    padding: 5px;
+    margin: 0px;
+
+}
+
+.details {
+    margin-top: 0px;
+    width: 100%;
+    border-top: 1px groove gray;
+    display: flex;
+    padding: 0;
+}
+
+.details p {
+    margin: 1px;
+    margin-top: 0px;
+}
+
+.star {
+    display: flex;
+    float: right;
+    margin-top: -50px;
+}
+
+.star i {
+    margin-top: 10px;
+}
+
+#section-3 {
+    margin: auto;
+    padding: 40px 0px;
+    width: 80%;
+    font-family: 'Noto';
+}
+
+.browes1 {
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    height: 20%;
+}
+
+.browes-ul {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    border: none;
+    justify-content: space-between;
+}
+
+.browes-ul ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.browes1 li {
+    cursor: pointer;
+    padding: 10px;
+    color: gray;
+    margin: 0;
+    list-style: none;
+}
+
+/*----------fo0ter------------*/
+#footer {
+    background-color: rgb(4, 44, 4);
+    width: 97%;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+}
+
+.footer-list ul {
+    color: aliceblue;
+    padding: 30px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.footer-list li {
+    list-style: none;
+    padding: 8px;
+
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer-list-h {
+    padding: 10px 0px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.follow-us {
+    border-bottom: 1px groove aliceblue;
+    width: 92%;
+    padding: 5px;
+    color: aliceblue;
+    margin: auto;
+    display: flex;
+}
+
+.follow-us h5 i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.follow-us h5 a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.follow-us #f {
+    text-align: left;
+    min-width: 50%;
+}
+
+.follow-us #m {
+    text-align: right;
+    margin-right: 10px;
+    min-width: 50%;
+}
+
+#licence {
+    display: flex;
+    padding: 30px;
+    margin-left: 10px;
+}
+
+/*-----------projectdetail page------------*/
+#project-full-details {
+
+    margin: auto;
+    max-width: 85%;
+    padding: 0;
+}
+
+.project-D {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.project-info {
+
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.project-form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 40%;
+    height: fit-content;
+    margin: 10px;
+    padding: 30px 10px;
+    position: sticky;
+    top: 100px;
+    left: 0;
+    border-radius: 20px;
+
+}
+
+.freelan-profil {
+    /*border: 1px solid yellow;*/
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    margin: 10px;
+
+}
+
+.profilimg i {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.p-t {
+    min-width: 150px;
+    margin: 10px 10px;
+}
+
+.p-r i {
+    color: green;
+}
+
+.p-r {
+    min-width: 150px;
+    margin: 10px 10px;
+}
+
+p {
+    margin: auto;
+}
+
+.avatar-p {
+    width: 40px;
+    height: 40px;
+}
+
+.p-rting {
+    padding: 10px;
+    display: flex;
+}
+
+.project-form button {
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    margin: 0px 100px;
+    border-radius: 20px;
+    color: aliceblue;
+
+}
+
+/*----------------details of freelancer----------------------*/
+.project-explain {
+    width: 100%;
+}
+
+.project-explain img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.projec-dis {
+    border: none;
+
+}
+
+.projec-dis p {
+    text-align: left;
+    color: black;
+}
+
+/*-----------form to contect client-----------*/
+
+
+.project-form form {
+    position: relative;
+
+}
+
+.project-form form input {
+    margin: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px groove gray;
+    width: 80%;
+    height: 40px;
+    padding: 2px 15px 0px 48px;
+    border-radius: 5px;
+    outline-color: green;
+}
+
+/*------------------home page --------------------------*/
+
+#home-page {
+    margin: auto;
+    max-width: 95%;
+    padding: 0;
+    font-family: 'rza';
+    display: flex;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.hom-div {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.hp-1 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.hp-1 h1 {
+    color: rgb(8, 175, 8);
+    font-size: 80px;
+    padding: 0px;
+    line-height: 70px;
+}
+
+.hp-1 h2 {
+    font-size: 22px;
+    color: gray;
+    font-family: 'neue montreal';
+    margin-top: 30px;
+}
+
+.hp-1 button {
+    border: none;
+    background-color: green;
+    width: 130px;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.div-img {
+
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.div-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.trusrby {
+    display: flex;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px 10px;
+    position: relative;
+
+}
+
+.companyslogo {
+
+    width: 100%;
+    position: relative;
+    margin: 10px;
+}
+
+.companyslogo img {
+    width: 100%;
+    height: 100%;
+}
+
+#h-w-h {
+    margin: auto;
+    max-width: 80%;
+    padding: 20px;
+    font-family: 'rza';
+    display: flex;
+    border: none;
+}
+
+.hwh-gif {
+    border: none;
+    margin: 20px;
+    border-radius: 20px;
+    width: 40%;
+    max-height: 20%;
+    position: relative;
+    margin: auto;
+}
+
+.hwh-gif img {
+    border: none;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+
+.hwh-delaits {
+    border: none;
+    margin: 30px 10px;
+    width: 60%;
+    box-shadow: 2px 3px 1px 0.px rgba(128, 128, 128, 0.583);
+
+}
+
+.hwh-delaits h1 {
+    margin: 10px;
+
+}
+
+.hwh-delaits h5 {
+    padding-left: 10px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.hwh-delaits p {
+    margin-top: 0px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+#Browse-talent {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+
+}
+
+#Browse-talent .boxarea {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#Browse-talent .box {
+    width: 300px;
+}
+
+#Browse-talent .box h3 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+#Browse-talent .skills {
+    float: right;
+    margin-right: 50px;
+}
+
+#Browse-talent .p-r {
+    float: left;
+}
+
+/*-----------img div-----------*/
+
+#imgdiv1 {
+
+    background-color: rgb(0, 99, 129);
+    margin: auto;
+    width: 80%;
+    border-radius: 20px;
+    padding: 0px;
+    display: flex;
+}
+
+#imgdiv1 .imgdiv-details {
+    margin: 10px;
+    padding: 30px;
+    width: 60%;
+}
+
+#imgdiv1 .imgdiv-details h3 {
+    color: antiquewhite;
+    margin-bottom: 60px;
+
+}
+
+#imgdiv1 .imgdiv-details h1 {
+    color: antiquewhite;
+    margin: 0%;
+    font-size: 70px;
+}
+
+#imgdiv1 .imgdiv-details h2 {
+    color: rgba(0, 194, 253, 0.87);
+    margin-top: -15px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#imgdiv1 .imgdiv-details p {
+    color: white;
+    margin-top: 30px;
+}
+
+#imgdiv1 .imgdiv-details button {
+    border: none;
+    background: aliceblue;
+    color: rgb(2, 67, 87);
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#imgdiv1 .imgdiv-img {
+    border: 1px solid green;
+    width: 40%;
+}
+
+#imgdiv1 .imgdiv-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#forclient {
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 20px;
+    background-image: url(https://www.shutterstock.com/image-photo/employer-hiring-happy-candidate-after-260nw-2006035940.jpg);
+    padding: 30px;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+
+.forclient-h {
+    border: none;
+    max-width: 100%;
+}
+
+.forclient-h h3 {
+    color: aliceblue;
+    font-size: 20px;
+    width: 100%;
+    margin: 20px;
+    margin-bottom: 70px;
+}
+
+.forclient-h h1 {
+    color: aliceblue;
+    width: 100%;
+    font-size: 50px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.forclient-h h4 {
+    color: aliceblue;
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 30px;
+    width: 70%;
+
+}
+
+#forclient .boxarea .box {
+    width: 300px;
+    background-color: green;
+    color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+#forclient .boxarea .box h2 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+#forclient .boxarea .box h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#forclient .boxarea .box:hover {
+    background-color: aliceblue;
+    color: green;
+}
+
+
+/*------------index list-----------------------*/
+
+#indexlist {
+
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.indexlistcontainer {
+    justify-content: space-between;
+
+    display: flex;
+    padding: 0px;
+    width: 100%;
+}
+
+.indexlistcontainer .indexlist-1 ul a {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.795);
+
+}
+
+.indexlistcontainer .indexlist-2 ul a {
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    font-size: 25px;
+
+}
+
+.indexlistcontainer .indexlist-3 ul a {
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    font-size: 25px;
+}
+
+.indexlistcontainer ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.indexlistcontainer .indexlist-1 {
+
+    width: 30%;
+    margin: 30px;
+    font-size: 40px;
+    color: gray;
+
+}
+
+.indexlistcontainer ul a:hover {
+    color: green;
+}
+
+.indexlistcontainer .indexlist-2 {
+
+    margin: 30px;
+    width: 30%;
+}
+
+.indexlistcontainer .indexlist-3 {
+
+    margin: 30px;
+    width: 30%;
+
+}
+
+
+/*------------------profil dash board----------------------------*/
+
+#profildash {
+    margin: auto;
+    border: none;
+    width: 90%;
+    padding: 10px;
+}
+
+.profil {
+
+    width: 100%;
+    padding: 0;
+    display: flex;
+
+}
+
+.profilimg {
+
+    top: 0;
+    left: 0;
+    padding: 20px;
+    position: relative;
+
+
+}
+
+.profilimg img {
+    position: relative;
+    width: 150px;
+    height: cover;
+    margin: 10px 10px;
+}
+
+.profildes {
+
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+.profildes .follows {
+    color: gray;
+    font-size: 15px;
+}
+
+.profil-tab {
+    border: none;
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 60px;
+
+}
+
+/*---------------------------*/
+
+.container {
+    font-size: 20px;
+}
+
+.w-25 {
+    width: 25% !important;
+}
+
+.container li {
+    width: 100%;
+}
+
+.tab-content {
+    background-color: rgba(194, 191, 191, 0.685);
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.tab-conten,
+#home,
+#menu1,
+#menu2,
+#menu3 {
+    padding: 10px;
+}
+
+/*
+------------------------------
+--------------------------
+-----------------------
+*/
+
+#profile_update input[type=text],[type=password],
+select,
+textarea {
+    position: relative;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline-color: green;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.profil-but {
+    justify-content: end;
+    display: flex;
+}
+
+#profile_update .profile-update {
+    background-color: #04AA6D;
+    color: white;
+    position: relative;
+    width: 100px;
+    padding: 12px 20px;
+    border: none;
+    margin-right: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#profile_update .profil-but :hover {
+    background-color: #45a049;
+}
+
+
+.profil-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: relative;
+}
+
+/*---------jobpage--------*/
+#FBJ{
+   
+    padding: 20px;
+}
+.FBJ_div1{
+    border-radius: 20px;
+    width: 80%;
+    background-color: rgba(231, 231, 231, 0.596);
+    display: flex;
+    margin: auto;
+    padding:0px;
+}
+.FBJ_div1 .hom-div{
+ 
+    margin:5px;
+    padding: 0px;
+    width: 50%;
+   
+}
+.FBJ_div1 .hom-div .hp-1{
+    margin: 0;
+}
+.FBJ_div1 .hom-div .hp-1 h1{
+    font-size: 50px;
+    margin: 0;
+    line-height: 45px;
+}
+.FBJ_div1 .hom-div .hp-1 h2{
+    font-size: 15px;
+    margin:10px;
+}
+.FBJ_div1 .hom-div .hp-1 button{
+    margin: 10px;
+}
+.FBJ_div1 .fbj_div2{
+   
+    background-color: rgba(8, 77, 56, 0.986);
+    width: 50%;
+    margin:20px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.FBJ_div1 .fbj_div2 h2{
+    margin-top:-30px;
+    color: white;
+
+}
+.FBJ_div1 .fbj_div2 p i{
+    font-size: 20px;
+    color: gold;
+}
+.FBJ_div1 .fbj_div2 p{
+    font-size: 25px;
+    color: white;
+}
+.FBJ_div1 .fbj_div2 h6{
+    color: white;
+}
+/*
+.brands .trusrby .companyslogo
+
+*/
+#trustedbrands{
+    width: 100%;
+ 
+}
+.brands{
+    margin: auto;
+    width: 80%;
+    border-top:1px groove gray ;
+    border-bottom:1px groove gray ;
+    display:flex;
+    flex-wrap:wrap;
+    padding: 5px;
+    justify-content: space-around;
+
+}
+#trustedbrands .brands div{
+    margin: -10px;
+    width: fit-content;
+}
+
+#trustedbrands .brands div img{
+    position: relative;
+    margin: 10px;
+    width: 110px;
+    height: 50px;
+}
+
+/* #FBJ_2 .f_C .w-card .t-d-e-p .dtil */
+
+#FBJ_2{
+    
+    width: 100%;
+    padding: 20px;
+}
+#FBJ_2 .f_C h3{
+    margin : 0px 30px;
+}
+
+#FBJ_2 .f_C{
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+   
+    
+
+}
+.f_C-cardholder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+#FBJ_2 .f_C .w-card h1{
+    margin-bottom: 20px;
+}
+#FBJ_2 .f_C .w-card {
+    width:45%;
+    padding: 20px;
+}
+#FBJ_2 .f_C .w-card .t-d-e-p,.t-d-e-p2{
+    display: flex;
+    margin:10px;
+    justify-content: space-between;
+}
+.t-d-e-p .TDEP_h6{
+    display: flex;
+    flex-direction: column;
+}
+.TDEP_h6 p,h4{
+    margin: 0px;
+}
+.TDEP_h6 h4{
+    
+    font-size:15px;
+
+}
+.w-card .skillsbox{
+    width:auto;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+.t-d-e-p2{
+    justify-content: flex-start;
+}
+.t-d-e-p2 .skillsbox p{
+    margin:0px;
+    font-size: 12px;
+}
+
+#FBJ_2 .f_C .w-card button{
+    width: 30%;
+    background-color: green;
+    border: none;
+    height: 40px;
+    color:white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#FBJ_3 .FBJ_div1 .hom-div {
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+    align-items: center;
+    height: fit-content;
+}
+#FBJ_3 a{
+    color: white;
+}
+#FBJ_3{
+  
+    width:100%;
+}
+#FBJ_3 h1{
+    margin: auto;
+    width: 80%;
+}
+#FBJ_3 .FBJ_div1 {
+  
+    width: 80%;
+    background-color: transparent;
+}
+
+#FBJ_3 .FBJ_div1 .fbj_div2{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+#FBJ_3 .FBJ_div1 .fbj_div2 img{
+    margin: 0pc;
+}
+
+/*
+.aboutjob .project-D .heading
+.abj
+*/
+.aboutjob{
+
+    width: 100%;
+  
+}
+.aboutjob .project-D{
+  
+    margin: auto;
+    width: 90%;
+    display: flex;
+
+}
+
+.aboutjob .project-D .heading,.abj,
+.workdruation,.skill_eficency,
+.abtj,.aboutwork,.similerwork{
+    border-bottom:1px groove rgba(190, 188, 188, 0.651) ;
+    padding-bottom: 20px;
+    margin: 20px 0px;
+}
+.aboutjob .project-D .heading ul{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    width:auto;
+   
+}
+.aboutjob ul li{
+    list-style: none;
+}
+.workdruation .TDEP_h6{
+    width: 20%;
+    margin: 10px;
+}
+
+.aboutjob .project-D .workdruation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+   
+}
+
+.aboutjob .project-D .skill_eficency .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.aboutjob .project-D .flex-container  .skillsbox{
+    background-color: #ccc;
+    margin: 10px;
+    border-radius: 20px;
+    
+    
+}
+.flex-container .skillsbox p{
+   font-size: 12px;
+   margin: 10px;
+
+
+}
+.aboutjob .project-D .similerwork .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.similerwork .w-card{
+    padding: 10px; 
+    width: 50%;
+    margin:5px;
+
+}
+.similerwork .swcontainer{
+    display: flex;
+}
+.similerwork .w-card
+.skillsbox p{
+    font-size: 10px;
+    margin: 3px;
+}
+.abtj .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aboutjob .project-D .aboutwork .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aboutjob .project-D .aboutwork .starrr i{
+    font-size:20px;
+    color:gold;
+}
+.aboutjob .project-D .aboutwork .starrr p{
+    font-size: 25px;
+    color:green;
+}
+.aboutwork .hp-1{
+    margin: 0px;
+}
+
+.aboutjob .project-form{
+    padding: 30px;
+}
+.aboutjob .project-form p{
+    text-align: center;
+}
+.aboutjob .project-form button{
+    width: 80%;
+    text-align: center;
+    margin: 30px;
+}
